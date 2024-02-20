@@ -19,6 +19,8 @@ Antes de executar a aplicação, é necessário criar as seguintes variáveis de
 <li> DB_PORT: porta do banco de dados </li>
 <li> DB_USER: usuário do banco de dados </li>
 <li> DB_PASSWORD: senha do usuário do banco de dados </li>
+<li>API_USER: Usuário para rotas sem JWT</li>
+<li>API_PASS:Senha para rotas sem JWT</li>
 </ul>
 
 Essas variáveis podem ser definidas no arquivo .env, seguindo o exemplo do arquivo .env.example.
@@ -51,6 +53,8 @@ Before running the application, it is necessary to create the following environm
 <li>DB_PORT: database port</li>
 <li>DB_USER: database user</li>
 <li>DB_PASSWORD: database user's password</li>
+<li>API_USER: User for non JWT routes</li>
+<li>API_PASS: Password for non JWT routes</li>
 </ul>
 
 These variables can be defined in the .env file, following the example from the .env.example file.
